@@ -4,7 +4,7 @@
 - Git pode acompanhar as alterações feitas no código, sincronizar o código entre diferentes pessoas, testar alterações no código sem perder o original e reverter para versões antigas do código;
 - GitHub é um site que armazena repositórios do Git na Internet para facilitar a colaboração que o Git permite;
 - Repositório é um local para acompanhar o código e todas suas alterações;
-- Pode-se usar o git pela interface de linha de comandos (CLI) ou por interface gráfica ([GitKraken](https://www.gitkraken.com/), [GitHub Desktop](https://desktop.github.com/), [Web](https://desktop.github.com/));
+- Pode-se usar o git pela interface de linha de comandos (CLI) ou por interface gráfica ([GitKraken](https://www.gitkraken.com/), [GitHub Desktop](https://desktop.github.com/), [Web](https://github.com/));
 - Comandos Git:
     - `git clone <url>` : pega um repositório armazenado em um servidor (como o GitHub) e salva numa pasta na sua máquina local
         > `git clone https://github.com/MrbCabral/CS50-Web.git`
