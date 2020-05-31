@@ -63,7 +63,8 @@ Feature Branch                     +------->|commit #1|-->|commit #2|--------+
     - `git branch`: lista todas as ramificações atualmente em um repositório
     - `git branch <branchname>`: cria um novo ramo chamado `branchname`
     - `git checkout <branchname>`: alterna o ramo de trabaho atual para o `branchname`
-    - `git merge branchname`: mescla o ramo `branchname` no ramo de trabalho atual (normalmente `master`)
+    - `git merge <branchname>`: mescla o ramo `branchname` no ramo de trabalho atual (normalmente `master`)
+    - `git push --set-upstream origin <branchname>`: adiciona o ramo `branchname` ao servidor remoto
 
 - Qualquer versão de um repositório que não seja armazenada localmente em um dispositivo é chamada de 'remota'. 'Origem' é usada para se referir ao remoto a partir do qual o repositório local foi originalmente baixado
 - Alguns comandos `remote`:
@@ -71,16 +72,14 @@ Feature Branch                     +------->|commit #1|-->|commit #2|--------+
     - `git merge origin/master`: merge origin/master, que é a versão remota de um repositório normalmente baixada com `git fetch`, no ramo master local pre-existente
         - Observer que `git pull` é equivalente a executar git fetch e, em seguida, `git merge origin/master`
 - Um fork de um repositório é um repositório totalmente separado, que é uma cópia do repositório original. Um repositório bifurcado pode ser gerenciado e modificado como quaquer outro, tudo sem afetar a cópia original.
+- Mais comandos: [git branch](https://devhints.io/git-branch)
+
+## Pull Request
 - Projetos de código aberto geralmente são desenvolvidos usando forks. Havendo uma versão central do software, na qual os colaboradores se aprofundam e aprimoram e, quando desejam que essas alterações sejam mescladas no repositório central, eles enviam uma 'solicitação de recebimento' (_pull request_).
 - Uma _pull request_ pode ser feita para mesclar uma ramificação de um repositório com outra ramificação do mesmo repositório ou até mesmo um repositório diferente. As _pull requests_ são uma boa maneira de obter feedback das alterações dos colaboradores do mesmo projeto.
 - Observer que as pull requests e forks são recursos específicos do GitHub
-
-- Mais comandos: [git branch](https://devhints.io/git-branch)
-
-<!-- TODO
-Fork
-Pull Request
--->
+- [Criando uma pull request](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+- [Mais informações](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests)
 
 ## Ref
 - [Git Commands - Wethefoss](https://wethefoss.github.io/Git-Commands/)
