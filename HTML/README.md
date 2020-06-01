@@ -1,0 +1,36 @@
+# HTML
+- HTML (HyperText Markup Language) é usado para organizar a estrutura de uma página da web.
+- `<! DOCTYPE html>` é colocado no início de um arquivo HTML para indicar ao navegador que o HTML5 está sendo usado.
+- O HTML é composto de **tags**. As tags geralmente vêm em pares, com os dados entre as tags. Geralmente, as tags são recuadas para ajudar a visualizar sua hierarquia, mas qualquer recuo é puramente estilístico. As tags também podem ter **atributos**, que são campos de dados, algumas vezes obrigatórios e outras opcionais, que fornecem informações adicionais ao navegador sobre como renderizar os dados.
+- O Document Object Model (DOM) é uma maneira de conceituar páginas da Web, representando-as como uma hierarquia interconectada de nós. Em HTML, os nós do DOM seriam as diferentes tags e seus dados contidos, com a tag `<html></html>` estando no topo da árvore.
+- Algumas tags HTML comuns:
+    - `<html></html>`: conteúdo do site
+    - `<head></head>`: metadados sobre a página que é útil para o navegador ao exibir a página
+    - `<title></title>`: título da página
+    - `<body></body>`: corpo da página
+    - `<h1></h1>`: cabeçalho (h1 é o maior cabeçalho, h6 é o menor cabeçalho)
+    - `<ul></ul>`: lista não ordenada
+    - `<ol></ol>`: lista ordenada
+        - `<li></li>`: item de lista (deve estar dentro de `<ul></ul>` ou `<ol></ol>`)
+    - `<img src="caminho/para/img.jpg" height="200" width="300">`: imagem armazenada no atributo `src`, que também pode ser uma URL
+        - Observe que essa é uma única tag sem uma tag final (ou seja, não existe `</img>`)
+        - A altura (`height`) e a largura (`width`) são opcionais (se uma delas for omitida, o navegador dimensionará automaticamente a imagem) e também poderá assumir uma porcentagem: `height=50%` para dimensionar automaticamente a imagem para uma determinada parte da página
+    - `<table></table>`: tabela
+        - `<th></th>`: cabeçalho da tabela (table head -> th)
+        - `<tr></tr>`: linha da tabela (table row -> tr)
+        - `<td></td>`: dados da tabela (célula) (table data -> td)
+    - `<form> </form>`: formulário que pode ser preenchido e enviado pelo usuário
+        - `<input type="text" espaço reservado="Nome Completo" name="name">`: campo de entrada
+            - `type` indica o tipo de dados
+            - `placeholder` é o texto acinzentado mostrado antes do campo ser preenchido
+            - `name` é um identificador para o campo de entrada
+    - `<button></button>`: botão usado para enviar o formulário
+    - `<a href="path/to/pagina.html">Clique aqui!</a>` : link para página.html, alguma `URL` ou outro conteúdo marcado por `id`, passando `#id` para `href`
+    - `<input type="radio"> Opção 1` : botão de opção (radio button) para um formulário, em que apenas uma de todas as opções pode ser selecionada
+- Existem muitas novas tags úteis com HTML5, mas nem todos os navegadores, especialmente os mais antigos, suportam esses novos recursos. No entanto, esses novos recursos podem ser usados com crescente confiança de que serão renderizados adequadamente para uma parte significativa dos usuários.
+    - Outras tags: `header`, `nav`, `section`, `article`, `footer`, `audio`, `video`, `datalist`, `canvas`, `aside`.
+
+## Ref
+- [HTML - Mozilla Development Network](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Referência HTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML/ReferenciaHTML)
+- [HTML Element Reference - W3Schools](https://www.w3schools.com/tags/default.asp)
