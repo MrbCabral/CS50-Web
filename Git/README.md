@@ -81,6 +81,12 @@ Feature Branch                     +------->|commit #1|-->|commit #2|--------+
 - [Criando uma pull request](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 - [Mais informações](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests)
 
+## Páginas do GitHub
+- GitHub Pages é um recurso do GitHub que permite que um repositório seja implantado na Internet
+- Basta rolar para as páginas do GitHub em **Configurações**, selecione a **ramificação principal** e clique em **Salvar**.
+- Por padrão, o repositório será implantado no nome de **usuário.github.io/repository**.
+- As páginas do GitHub são atualizadas automaticamente quando o repositório é atualizado.
+
 ## Ref
 - [Git Commands - Wethefoss](https://wethefoss.github.io/Git-Commands/)
 - [Git and GitHub for Beginners - Crash Course - freeCodeCamp.org](https://www.youtube.com/watch?v=RGOj5yH7evk)
